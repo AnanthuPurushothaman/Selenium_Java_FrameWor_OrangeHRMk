@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-06T17:13:37 EST" name="Default suite" finished-at="2025-02-06T17:14:29 EST" duration-ms="51683">
+    <groups>
+    </groups>
+    <test started-at="2025-02-06T17:13:37 EST" name="Default test" finished-at="2025-02-06T17:14:29 EST" duration-ms="51683">
+      <class name="ananthuProject.Test.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.StandAloneTest@548d708a]" started-at="2025-02-06T17:13:37 EST" name="launchApplication" finished-at="2025-02-06T17:13:47 EST" duration-ms="10251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testUpdatingUserName()[pri:0, instance:ananthuProject.Test.StandAloneTest@548d708a]" started-at="2025-02-06T17:13:47 EST" name="testUpdatingUserName" finished-at="2025-02-06T17:14:12 EST" duration-ms="24444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatingUserName -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.StandAloneTest@548d708a]" started-at="2025-02-06T17:14:12 EST" name="closeBrowser" finished-at="2025-02-06T17:14:13 EST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.StandAloneTest@548d708a]" started-at="2025-02-06T17:14:13 EST" name="launchApplication" finished-at="2025-02-06T17:14:19 EST" duration-ms="6566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchUpdatedUserFromDirectory()[pri:0, instance:ananthuProject.Test.StandAloneTest@548d708a]" started-at="2025-02-06T17:14:19 EST" name="searchUpdatedUserFromDirectory" finished-at="2025-02-06T17:14:28 EST" depends-on-methods="ananthuProject.Test.StandAloneTest.testUpdatingUserName" duration-ms="9022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUpdatedUserFromDirectory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.StandAloneTest@548d708a]" started-at="2025-02-06T17:14:28 EST" name="closeBrowser" finished-at="2025-02-06T17:14:29 EST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ananthuProject.Test.StandAloneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
