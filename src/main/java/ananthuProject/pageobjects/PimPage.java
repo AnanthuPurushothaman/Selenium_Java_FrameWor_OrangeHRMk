@@ -31,6 +31,7 @@ public class PimPage extends AbstarctComponent {
 
 	
 	@FindBy(xpath = "//i[@class='oxd-icon bi-chevron-right']")
+	
 	List<WebElement> clicknext;
 
 

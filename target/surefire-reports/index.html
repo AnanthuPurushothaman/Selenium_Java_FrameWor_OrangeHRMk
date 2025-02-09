@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Test Suite</span>
+              <span class="suite-name border-passed">Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods failed suite-Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Suite -->
-                      <a href="#" panel-name="suite-Test_Suite" class="show-methods failed suite-Test_Suite"> (show)</a> <!-- show-methods failed suite-Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="ananthuProject.Test.LoginCheckTest" class="method navigator-link" hash-for-method="logInError(Admin, admin123)">logInError(Admin, admin123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Test_Suite -->
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,17 +103,22 @@
                     <div class="method-list-content passed suite-Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="ananthuProject.Test.LoginCheckTest" class="method navigator-link" hash-for-method="logInError(sdwdfsf, sdfsdfgdggdf)">logInError(sdwdfsf, sdfsdfgdggdf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Test_Suite" title="ananthuProject.Test.LoginCheckTest" class="method navigator-link" hash-for-method="logInError(sdfsf, sdfdfgdsdf)">logInError(sdfsf, sdfdfgdsdf)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="ananthuProject.Test.LoginCheckTest" class="method navigator-link" hash-for-method="logInError(sdfsf, dfg)">logInError(sdfsf, dfg)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite" title="ananthuProject.Test.LoginCheckTest" class="method navigator-link" hash-for-method="logInError(sdwdfsf, sdfsdfgdggdf)">logInError(sdwdfsf, sdfsdfgdggdf)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="ananthuProject.Test.LoginCheckTest" class="method navigator-link" hash-for-method="logInError(sdwdfsf, sdfsdfgdggdf)">logInError(sdwdfsf, sdfsdfgdggdf)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite" title="ananthuProject.Test.LoginCheckTest" class="method navigator-link" hash-for-method="logInError(sdfsf, dfg)">logInError(sdfsf, dfg)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -167,50 +158,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Test_Suite" class="panel Test_Suite">
-          <div class="suite-Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">ananthuProject.Test.LoginCheckTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="logInError(Admin, admin123)">
-                  </a> <!-- logInError(Admin, admin123) -->
-                  <span class="method-name">logInError</span>
-                  <span class="parameters">(Admin,admin123)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;p[class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;]&quot;}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [756eb0e59dae113e92cb2f83cc2242f1, findElement {value=p[class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;], using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\gopik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:2536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2536/devtool..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 756eb0e59dae113e92cb2f83cc2242f1
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-	at ananthuProject.pageobjects.LandingPage.invalidCredentials(LandingPage.java:60)
-	at ananthuProject.Test.LoginCheckTest.logInError(LoginCheckTest.java:24)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_Suite-class-failed -->
           <div class="suite-Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -222,6 +169,53 @@ Session ID: 756eb0e59dae113e92cb2f83cc2242f1
                   <a name="testTotalRecord">
                   </a> <!-- testTotalRecord -->
                   <span class="method-name">testTotalRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ananthuProject.Test.LoginCheckTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInError(sdwdfsf, sdfsdfgdggdf)">
+                  </a> <!-- logInError(sdwdfsf, sdfsdfgdggdf) -->
+                  <span class="method-name">logInError</span>
+                  <span class="parameters">(sdwdfsf,sdfsdfgdggdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInError(sdfsf, sdfdfgdsdf)">
+                  </a> <!-- logInError(sdfsf, sdfdfgdsdf) -->
+                  <span class="method-name">logInError</span>
+                  <span class="parameters">(sdfsf,sdfdfgdsdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInError(sdwdfsf, sdfsdfgdggdf)">
+                  </a> <!-- logInError(sdwdfsf, sdfsdfgdggdf) -->
+                  <span class="method-name">logInError</span>
+                  <span class="parameters">(sdwdfsf,sdfsdfgdggdf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInError(sdfsf, dfg)">
+                  </a> <!-- logInError(sdfsf, dfg) -->
+                  <span class="method-name">logInError</span>
+                  <span class="parameters">(sdfsf,dfg)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordReset">
+                  </a> <!-- passwordReset -->
+                  <span class="method-name">passwordReset</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -251,45 +245,6 @@ Session ID: 756eb0e59dae113e92cb2f83cc2242f1
                   <a name="testUpdatingUserName">
                   </a> <!-- testUpdatingUserName -->
                   <span class="method-name">testUpdatingUserName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_Suite-class-passed -->
-          <div class="suite-Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ananthuProject.Test.LoginCheckTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="logInError(sdfsf, sdfdfgdsdf)">
-                  </a> <!-- logInError(sdfsf, sdfdfgdsdf) -->
-                  <span class="method-name">logInError</span>
-                  <span class="parameters">(sdfsf,sdfdfgdsdf)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logInError(sdfsf, dfg)">
-                  </a> <!-- logInError(sdfsf, dfg) -->
-                  <span class="method-name">logInError</span>
-                  <span class="parameters">(sdfsf,dfg)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logInError(sdwdfsf, sdfsdfgdggdf)">
-                  </a> <!-- logInError(sdwdfsf, sdfsdfgdggdf) -->
-                  <span class="method-name">logInError</span>
-                  <span class="parameters">(sdwdfsf,sdfsdfgdggdf)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="passwordReset">
-                  </a> <!-- passwordReset -->
-                  <span class="method-name">passwordReset</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -355,39 +310,39 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testUpdatingUserName')
 data.setCell(0, 2, 'ananthuProject.Test.StandAloneTest')
-data.setCell(0, 3, 22776);
+data.setCell(0, 3, 21670);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testTotalRecord')
 data.setCell(1, 2, 'ananthuProject.Test.RecordListTest')
-data.setCell(1, 3, 19179);
+data.setCell(1, 3, 18768);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logInError')
-data.setCell(2, 2, 'ananthuProject.Test.LoginCheckTest')
-data.setCell(2, 3, 11533);
+data.setCell(2, 1, 'searchNameInTimeSheet')
+data.setCell(2, 2, 'ananthuProject.Test.StandAloneTest')
+data.setCell(2, 3, 12995);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'searchUpdatedUserFromDirectory')
 data.setCell(3, 2, 'ananthuProject.Test.StandAloneTest')
-data.setCell(3, 3, 6321);
+data.setCell(3, 3, 9978);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchNameInTimeSheet')
-data.setCell(4, 2, 'ananthuProject.Test.StandAloneTest')
-data.setCell(4, 3, 5810);
+data.setCell(4, 1, 'logInError')
+data.setCell(4, 2, 'ananthuProject.Test.LoginCheckTest')
+data.setCell(4, 3, 2061);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'passwordReset')
 data.setCell(5, 2, 'ananthuProject.Test.LoginCheckTest')
-data.setCell(5, 3, 2059);
+data.setCell(5, 3, 1643);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'logInError')
 data.setCell(6, 2, 'ananthuProject.Test.LoginCheckTest')
-data.setCell(6, 3, 1407);
+data.setCell(6, 3, 1602);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'logInError')
 data.setCell(7, 2, 'ananthuProject.Test.LoginCheckTest')
-data.setCell(7, 3, 1320);
+data.setCell(7, 3, 1277);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'logInError')
 data.setCell(8, 2, 'ananthuProject.Test.LoginCheckTest')
-data.setCell(8, 3, 1241);
+data.setCell(8, 3, 1226);
 window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
 return data;
 }
@@ -425,115 +380,113 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdatingUserName</span>
-                <span class="method-start">7882 ms</span>
+                <span class="method-start">9995 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">30671 ms</span>
+                <span class="method-start">31679 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">30920 ms</span>
+                <span class="method-start">31800 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchNameInTimeSheet</span>
-                <span class="method-start">34969 ms</span>
+                <span class="method-start">40254 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">40780 ms</span>
+                <span class="method-start">53254 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">40963 ms</span>
+                <span class="method-start">53644 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchUpdatedUserFromDirectory</span>
-                <span class="method-start">45134 ms</span>
+                <span class="method-start">62685 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">51457 ms</span>
+                <span class="method-start">72664 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ananthuProject.Test.LoginCheckTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">51653 ms</span>
+                <span class="method-start">72715 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logInError(sdfsf, dfg)</span>
-                <span class="method-start">55339 ms</span>
+                <span class="method-start">76789 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">56748 ms</span>
+                <span class="method-start">78067 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">56935 ms</span>
+                <span class="method-start">78133 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logInError(sdfsf, sdfdfgdsdf)</span>
-                <span class="method-start">60823 ms</span>
+                <span class="method-start">81747 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">62065 ms</span>
+                <span class="method-start">82974 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">62216 ms</span>
+                <span class="method-start">83012 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logInError(sdwdfsf, sdfsdfgdggdf)</span>
-                <span class="method-start">66106 ms</span>
+                <span class="method-start">87232 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">67427 ms</span>
+                <span class="method-start">88835 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">67520 ms</span>
+                <span class="method-start">88887 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">logInError(Admin, admin123)</span>
-                <span class="method-start">71312 ms</span>
+                <span class="method-name">logInError(sdwdfsf, sdfsdfgdggdf)</span>
+                <span class="method-start">94252 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">85001 ms</span>
+                <span class="method-start">96315 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">85682 ms</span>
+                <span class="method-start">96356 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">passwordReset</span>
-                <span class="method-start">90054 ms</span>
+                <span class="method-start">100516 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">92114 ms</span>
+                <span class="method-start">102160 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ananthuProject.Test.RecordListTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">92238 ms</span>
+                <span class="method-start">102194 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalRecord</span>
-                <span class="method-start">96191 ms</span>
+                <span class="method-start">105706 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">115371 ms</span>
+                <span class="method-start">124475 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
