@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-09T16:30:43 EST" name="Suite" finished-at="2025-02-09T16:32:19 EST" duration-ms="96847">
+  <suite started-at="2025-02-10T23:43:56 EST" name="Test Suite" finished-at="2025-02-10T23:45:49 EST" duration-ms="112828">
     <groups>
     </groups>
-    <test started-at="2025-02-09T16:30:43 EST" name="Unit" finished-at="2025-02-09T16:32:04 EST" duration-ms="81961">
+    <test started-at="2025-02-10T23:43:56 EST" name="Login Tests" finished-at="2025-02-10T23:45:49 EST" duration-ms="112828">
       <class name="ananthuProject.Test.LoginCheckTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:30:43 EST" name="launchApplication" finished-at="2025-02-09T16:31:07 EST" duration-ms="24562" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:44:53 EST" name="launchApplication" finished-at="2025-02-10T23:44:57 EST" duration-ms="3871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="logInError(java.lang.String,java.lang.String)[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:08 EST" name="logInError" data-provider="getData" finished-at="2025-02-09T16:31:11 EST" duration-ms="3877" status="PASS">
+        <test-method signature="logInError(java.lang.String,java.lang.String)[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:44:57 EST" name="logInError" data-provider="getData" finished-at="2025-02-10T23:44:58 EST" duration-ms="1201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,19 +27,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInError -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:11 EST" name="closeBrowser" finished-at="2025-02-09T16:31:11 EST" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:44:58 EST" name="closeBrowser" finished-at="2025-02-10T23:44:58 EST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:11 EST" name="launchApplication" finished-at="2025-02-09T16:31:21 EST" duration-ms="9444" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:44:58 EST" name="launchApplication" finished-at="2025-02-10T23:45:02 EST" duration-ms="3918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="logInError(java.lang.String,java.lang.String)[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:21 EST" name="logInError" data-provider="getData" finished-at="2025-02-09T16:31:23 EST" duration-ms="1961" status="PASS">
+        <test-method signature="logInError(java.lang.String,java.lang.String)[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:02 EST" name="logInError" data-provider="getData" finished-at="2025-02-10T23:45:03 EST" duration-ms="1221" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sdfsf]]>
+                <![CDATA[jackson]]>
               </value>
             </param>
             <param index="1">
@@ -51,15 +51,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInError -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:23 EST" name="closeBrowser" finished-at="2025-02-09T16:31:23 EST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:03 EST" name="closeBrowser" finished-at="2025-02-10T23:45:04 EST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:23 EST" name="launchApplication" finished-at="2025-02-09T16:31:29 EST" duration-ms="5874" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:04 EST" name="launchApplication" finished-at="2025-02-10T23:45:08 EST" duration-ms="4183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="logInError(java.lang.String,java.lang.String)[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:29 EST" name="logInError" data-provider="getData" finished-at="2025-02-09T16:31:32 EST" duration-ms="3077" status="PASS">
+        <test-method signature="logInError(java.lang.String,java.lang.String)[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:08 EST" name="logInError" data-provider="getData" finished-at="2025-02-10T23:45:10 EST" duration-ms="1835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ananthu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:10 EST" name="closeBrowser" finished-at="2025-02-10T23:45:10 EST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:10 EST" name="launchApplication" finished-at="2025-02-10T23:45:15 EST" duration-ms="5077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="logInError(java.lang.String,java.lang.String)[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:15 EST" name="logInError" data-provider="getData" finished-at="2025-02-10T23:45:17 EST" duration-ms="1738" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,87 +99,75 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInError -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:32 EST" name="closeBrowser" finished-at="2025-02-09T16:31:32 EST" duration-ms="376" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:17 EST" name="closeBrowser" finished-at="2025-02-10T23:45:17 EST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:32 EST" name="launchApplication" finished-at="2025-02-09T16:31:44 EST" duration-ms="11518" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:17 EST" name="launchApplication" finished-at="2025-02-10T23:45:23 EST" duration-ms="5518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="logInError(java.lang.String,java.lang.String)[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:44 EST" name="logInError" data-provider="getData" finished-at="2025-02-09T16:31:48 EST" duration-ms="4018" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sdwdfsf]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sdfsdfgdggdf]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logInError -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:48 EST" name="closeBrowser" finished-at="2025-02-09T16:31:48 EST" duration-ms="340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:31:48 EST" name="launchApplication" finished-at="2025-02-09T16:32:00 EST" duration-ms="11810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="passwordReset()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:32:00 EST" name="passwordReset" finished-at="2025-02-09T16:32:04 EST" duration-ms="4305" status="PASS">
+        <test-method signature="passwordReset()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:23 EST" name="passwordReset" finished-at="2025-02-10T23:45:25 EST" duration-ms="2441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passwordReset -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@31edaa7d]" started-at="2025-02-09T16:32:04 EST" name="closeBrowser" finished-at="2025-02-09T16:32:04 EST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.LoginCheckTest@3e62d773]" started-at="2025-02-10T23:45:25 EST" name="closeBrowser" finished-at="2025-02-10T23:45:25 EST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- ananthuProject.Test.LoginCheckTest -->
-    </test> <!-- Unit -->
-    <test started-at="2025-02-09T16:30:43 EST" name="E2E" finished-at="2025-02-09T16:32:19 EST" duration-ms="96845">
-      <class name="ananthuProject.Test.StandAloneTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:30:43 EST" name="launchApplication" finished-at="2025-02-09T16:31:08 EST" duration-ms="24811" status="PASS">
+      <class name="ananthuProject.Test.RecordListTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.RecordListTest@4ef74c30]" started-at="2025-02-10T23:45:25 EST" name="launchApplication" finished-at="2025-02-10T23:45:30 EST" duration-ms="4557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="testUpdatingUserName()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:31:08 EST" name="testUpdatingUserName" finished-at="2025-02-09T16:31:36 EST" duration-ms="28479" status="PASS">
+        <test-method signature="testTotalRecord()[pri:0, instance:ananthuProject.Test.RecordListTest@4ef74c30]" started-at="2025-02-10T23:45:30 EST" name="testTotalRecord" finished-at="2025-02-10T23:45:48 EST" duration-ms="18494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalRecord -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.RecordListTest@4ef74c30]" started-at="2025-02-10T23:45:48 EST" name="closeBrowser" finished-at="2025-02-10T23:45:49 EST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ananthuProject.Test.RecordListTest -->
+      <class name="ananthuProject.Test.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:43:56 EST" name="launchApplication" finished-at="2025-02-10T23:44:04 EST" duration-ms="7684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="testUpdatingUserName()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:44:04 EST" name="testUpdatingUserName" finished-at="2025-02-10T23:44:29 EST" duration-ms="25222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdatingUserName -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:31:36 EST" name="closeBrowser" finished-at="2025-02-09T16:31:36 EST" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:44:29 EST" name="closeBrowser" finished-at="2025-02-10T23:44:30 EST" duration-ms="789" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:31:36 EST" name="launchApplication" finished-at="2025-02-09T16:31:47 EST" duration-ms="10321" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:44:30 EST" name="launchApplication" finished-at="2025-02-10T23:44:35 EST" duration-ms="5164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="searchNameInTimeSheet()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:31:47 EST" name="searchNameInTimeSheet" finished-at="2025-02-09T16:32:00 EST" depends-on-methods="ananthuProject.Test.StandAloneTest.testUpdatingUserName" duration-ms="13488" status="PASS">
+        <test-method signature="searchNameInTimeSheet()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:44:35 EST" name="searchNameInTimeSheet" finished-at="2025-02-10T23:44:42 EST" depends-on-methods="ananthuProject.Test.StandAloneTest.testUpdatingUserName" duration-ms="6862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchNameInTimeSheet -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:32:00 EST" name="closeBrowser" finished-at="2025-02-09T16:32:00 EST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:44:42 EST" name="closeBrowser" finished-at="2025-02-10T23:44:42 EST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:32:00 EST" name="launchApplication" finished-at="2025-02-09T16:32:10 EST" duration-ms="9783" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:44:42 EST" name="launchApplication" finished-at="2025-02-10T23:44:47 EST" duration-ms="4422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="searchUpdatedUserFromDirectory()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:32:10 EST" name="searchUpdatedUserFromDirectory" finished-at="2025-02-09T16:32:19 EST" depends-on-methods="ananthuProject.Test.StandAloneTest.testUpdatingUserName" duration-ms="9111" status="PASS">
+        <test-method signature="searchUpdatedUserFromDirectory()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:44:47 EST" name="searchUpdatedUserFromDirectory" finished-at="2025-02-10T23:44:53 EST" depends-on-methods="ananthuProject.Test.StandAloneTest.testUpdatingUserName" duration-ms="6165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchUpdatedUserFromDirectory -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.StandAloneTest@13d73f29]" started-at="2025-02-09T16:32:19 EST" name="closeBrowser" finished-at="2025-02-09T16:32:19 EST" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ananthuProject.Test.StandAloneTest@20bd8be5]" started-at="2025-02-10T23:44:53 EST" name="closeBrowser" finished-at="2025-02-10T23:44:53 EST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- ananthuProject.Test.StandAloneTest -->
-    </test> <!-- E2E -->
-  </suite> <!-- Suite -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Test Suite -->
 </testng-results>

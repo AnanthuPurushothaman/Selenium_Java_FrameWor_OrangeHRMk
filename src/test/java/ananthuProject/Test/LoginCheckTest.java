@@ -45,6 +45,6 @@ public class LoginCheckTest extends BaseTest {
 	@DataProvider
 	public Object[][] getData() {
 		
-	  return	new Object [][] {{"sdfsf", "dfg"},{"jackson", "sdfdfgdsdf"},{"Test", "ananthu"},{"sdwdfsf", "sdfsdfgdggdf"}};
+	  return	new Object [][] {{"Ananthu", "test123"},{"jackson", "test896"},{"Test", "ananthu"},{"sdwdfsf", "sdfsdfgdggdf"}};
 	}
 }
