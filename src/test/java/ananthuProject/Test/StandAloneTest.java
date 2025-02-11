@@ -36,7 +36,7 @@ public class StandAloneTest extends BaseTest {
 	@Test
 	public void testUpdatingUserName() throws IOException, InterruptedException {
 
-		//String actualName = "jackson";
+		//String actualName = "";
 		String actualLastName = "davidtony";
 		String catName = "My Info";
 		HrmCatalouge catalouge = landingPage.Login("Admin", "admin123");
