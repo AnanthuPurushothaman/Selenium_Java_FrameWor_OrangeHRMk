@@ -13,10 +13,10 @@ import ananthuProject.AbstractComponent.AbstarctComponent;
 
 public class MyInfoPage extends AbstarctComponent {
 
-	ChromeDriver driver;
+	WebDriver driver;
 	Actions a;
 
-	public MyInfoPage(ChromeDriver driver, Actions a) {
+	public MyInfoPage(WebDriver driver, Actions a) {
 		super(driver);
 		this.driver = driver;
 		this.a = a;

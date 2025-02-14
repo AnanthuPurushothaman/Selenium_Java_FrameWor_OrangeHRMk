@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
@@ -14,9 +15,9 @@ import ananthuProject.pageobjects.MyInfoPage;
 
 public class AbstarctComponent {
 	
-	ChromeDriver driver;
+	WebDriver driver;
 	
-	public AbstarctComponent(ChromeDriver driver) {
+	public AbstarctComponent(WebDriver driver) {
 		this.driver=driver;
 	}
 

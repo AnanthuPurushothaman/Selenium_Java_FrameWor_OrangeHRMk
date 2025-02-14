@@ -3,6 +3,7 @@ package ananthuProject.pageobjects;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
@@ -14,11 +15,11 @@ public class DirectoryPage extends AbstarctComponent{
 
 	
 	public String adminJobTitle="HR Manager";
-	ChromeDriver driver;
+	WebDriver driver;
 	String catName;
 	
 	
-	public DirectoryPage(ChromeDriver driver) {
+	public DirectoryPage(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

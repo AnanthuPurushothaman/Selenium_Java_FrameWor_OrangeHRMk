@@ -5,12 +5,13 @@ import static org.testng.Assert.assertTrue;
 import org.testng.annotations.Test;
 
 import ananthuProject.TestComponents.BaseTest;
+import ananthuProject.TestComponents.Retry;
 import ananthuProject.pageobjects.PimPage;
 
 public class PIMpageTest extends BaseTest {
 	
 	
-	@Test
+	@Test(retryAnalyzer=Retry.class)
 	public void testHelpButton(){
 		
 		String menu="PIM";

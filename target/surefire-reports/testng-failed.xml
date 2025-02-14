@@ -6,15 +6,9 @@
   </listeners>
   <test thread-count="5" name="Login Tests(failed)" verbose="0">
     <classes>
-      <class name="ananthuProject.Test.RecordListTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="launchApplication"/>
-          <include name="testTotalRecord"/>
-        </methods>
-      </class> <!-- ananthuProject.Test.RecordListTest -->
       <class name="ananthuProject.Test.StandAloneTest">
         <methods>
+          <include name="searchNameInTimeSheet"/>
           <include name="closeBrowser"/>
           <include name="launchApplication"/>
           <include name="searchUpdatedUserFromDirectory"/>

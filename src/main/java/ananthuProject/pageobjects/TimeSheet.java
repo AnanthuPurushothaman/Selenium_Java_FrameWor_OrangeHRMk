@@ -3,6 +3,7 @@ package ananthuProject.pageobjects;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
@@ -12,9 +13,9 @@ import ananthuProject.AbstractComponent.AbstarctComponent;
 
 public class TimeSheet extends AbstarctComponent {
 
-	ChromeDriver driver;
+	WebDriver driver;
 	
-	public TimeSheet(ChromeDriver driver) {
+	public TimeSheet(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

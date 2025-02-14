@@ -14,9 +14,9 @@ import ananthuProject.AbstractComponent.AbstarctComponent;
 
 public class HrmCatalouge extends AbstarctComponent{
 	
-	ChromeDriver driver;
+	WebDriver driver;
 	Actions a;
-	public HrmCatalouge(ChromeDriver driver,Actions a) {
+	public HrmCatalouge(WebDriver driver,Actions a) {
 		super(driver);
 		this.driver=driver;
 		this.a=a;

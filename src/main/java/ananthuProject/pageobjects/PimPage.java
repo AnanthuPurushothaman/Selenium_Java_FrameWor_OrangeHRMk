@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.SearchContext;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
@@ -18,12 +19,12 @@ import ananthuProject.AbstractComponent.AbstarctComponent;
 
 public class PimPage extends AbstarctComponent {
 
-	ChromeDriver driver;
+	WebDriver driver;
 	int actualListSize;
 	
 	String expectedHelpPageTitle="How to Filter the Employee List – OrangeHRM";
 
-	public PimPage(ChromeDriver driver) {
+	public PimPage(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);

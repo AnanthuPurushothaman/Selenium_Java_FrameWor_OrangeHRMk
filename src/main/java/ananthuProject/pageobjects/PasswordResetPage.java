@@ -1,6 +1,7 @@
 package ananthuProject.pageobjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -11,10 +12,10 @@ import ananthuProject.AbstractComponent.AbstarctComponent;
 
 public class PasswordResetPage extends AbstarctComponent {
 	
-	ChromeDriver driver;
+	WebDriver driver;
 	
 	
-	public PasswordResetPage(ChromeDriver driver) {
+	public PasswordResetPage(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

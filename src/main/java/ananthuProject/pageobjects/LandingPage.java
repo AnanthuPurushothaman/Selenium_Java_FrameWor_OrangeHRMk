@@ -1,5 +1,6 @@
 package ananthuProject.pageobjects;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -8,10 +9,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LandingPage {
 
-	ChromeDriver driver;
+	WebDriver driver;
 	Actions a;
 
-	public LandingPage(ChromeDriver driver, Actions a) {
+	public LandingPage(WebDriver driver, Actions a) {
 
 		this.driver = driver;
 		this.a = a;
