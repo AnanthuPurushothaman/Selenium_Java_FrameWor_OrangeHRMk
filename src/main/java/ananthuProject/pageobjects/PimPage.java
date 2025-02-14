@@ -1,10 +1,13 @@
 package ananthuProject.pageobjects;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,6 +20,8 @@ public class PimPage extends AbstarctComponent {
 
 	ChromeDriver driver;
 	int actualListSize;
+	
+	String expectedHelpPageTitle="How to Filter the Employee List – OrangeHRM";
 
 	public PimPage(ChromeDriver driver) {
 		super(driver);
@@ -25,21 +30,24 @@ public class PimPage extends AbstarctComponent {
 
 	}
 
-	
 	@FindBy(xpath = "//div[@class='oxd-table-cell oxd-padding-cell'][3]")
 	List<WebElement> myList1;
 
-	
 	@FindBy(xpath = "//i[@class='oxd-icon bi-chevron-right']")
-	
-	List<WebElement> clicknext;
 
+	List<WebElement> clicknext;
 
 	@FindBy(xpath = "//i[@class='oxd-icon bi-chevron-right']")
 	WebElement nextPageOfTable;
-	
-	@FindBy(xpath="//div/div/span[@class='oxd-text oxd-text--span']")
+
+	@FindBy(xpath = "//div/div/span[@class='oxd-text oxd-text--span']")
 	WebElement expaectedCountElement;
+
+	@FindBy(xpath = "//div[@class='oxd-table-filter-header-title']/h5")
+	WebElement h6TextOnPage;
+	
+	@FindBy(css="button[title='Help']")
+	WebElement helpButton;
 
 	public int countCheck(String menu) throws InterruptedException {
 
@@ -64,14 +72,60 @@ public class PimPage extends AbstarctComponent {
 		actualListSize = myList2.size();
 		return actualListSize;
 	}
-	
+
 	public int getExpectedCount() {
-		
-		 String myString=expaectedCountElement.getText().replaceAll("[^0-9]", "");
-		 int expectedCount = Integer.parseInt(myString);
-		
-		 return expectedCount;
+
+		String myString = expaectedCountElement.getText().replaceAll("[^0-9]", "");
+		int expectedCount = Integer.parseInt(myString);
+
+		return expectedCount;
+	}
+
+	public boolean testVisibilityOfH6Title(String menu) {
+
+		selectMenuOption(menu);
+
+		if (h6TextOnPage.isDisplayed()) {
+
+			return true;
+
+		} else {
+
+			return false;
+		}
+
 	}
 	
+	public boolean testHelpButton(String menu) {
+		
+		selectMenuOption(menu);
+		String clickonLink=Keys.chord(Keys.CONTROL,Keys.ENTER);
+		helpButton.sendKeys(clickonLink);
+		
+		Set<String> window =driver.getWindowHandles();
+		
+		Iterator<String> it = window.iterator();
+		String currentPage= it.next();
+		
+		while(it.hasNext()) {
+			
+			String title=	driver.switchTo().window(it.next()).getTitle();
+			
+			System.out.println(title);
+		
+			if(title.equalsIgnoreCase(expectedHelpPageTitle)) {
+				
+				return true;
+			}
+			
+			}
+		
+		driver.switchTo().window(currentPage);
+			return false;
+		}
+	
+		
+		
+	}
 
-}
+

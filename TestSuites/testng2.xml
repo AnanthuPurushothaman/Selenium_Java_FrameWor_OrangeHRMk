@@ -13,7 +13,7 @@
         <classes>
             <class name="ananthuProject.Test.StandAloneTest"/>
             <class name="ananthuProject.Test.LoginCheckTest"/>
-            <class name="ananthuProject.Test.RecordListTest"/>
+            <class name="ananthuProject.Test.CheckVisibilityTest"/>
         </classes>
     </test>
 </suite>

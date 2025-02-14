@@ -10,13 +10,10 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
 import ananthuProject.pageobjects.LandingPage;
@@ -59,7 +56,7 @@ public class BaseTest {
 		} else if (browserName.equals("edge")) {
 
 			// invoke frirefox browser
-			EdgeDriver driver = new EdgeDriver();
+			
 
 		}
 		driver.manage().window().maximize();
@@ -80,7 +77,7 @@ public class BaseTest {
 	
 	@AfterMethod
      public void closeBrowser() {	
-	 driver.close();
+	 driver.quit();
 	}
 	public String getScreenshot(String testCaseName, ChromeDriver driver) throws IOException {
 	    // Capture the screenshot and store it in a file
