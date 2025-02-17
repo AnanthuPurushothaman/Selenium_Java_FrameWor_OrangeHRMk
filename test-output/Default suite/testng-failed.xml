@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ananthuProject.Test.PIMpageTest">
+      <class name="ananthuProject.Test.LoginCheckTest">
         <methods>
-          <include name="testHelpButton"/>
+          <include name="logInWithDataBaseCredentials"/>
           <include name="closeBrowser"/>
           <include name="launchApplication"/>
         </methods>
-      </class> <!-- ananthuProject.Test.PIMpageTest -->
+      </class> <!-- ananthuProject.Test.LoginCheckTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
