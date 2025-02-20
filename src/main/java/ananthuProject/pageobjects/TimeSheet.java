@@ -36,15 +36,14 @@ public class TimeSheet extends AbstarctComponent {
 	
 	By inputboxVisibility= By.xpath("//input[@placeholder='Type for hints...']");
 
-	public TimeSheet timeSheetSearcgh(String catNameTime) throws InterruptedException {
+	public void timeSheetSearcgh(String catNameTime) throws InterruptedException {
 		
 		selectMenuOption(catNameTime);
 		timeSheets.click();
 		Thread.sleep(1000);
 		WebElement myTimeSheet=timeSheetsDropDown.stream().filter(list1->list1.getText().equals("My Timesheets")).findFirst().orElse(null);
 		myTimeSheet.click();
-		TimeSheet TimeSheet2 = new TimeSheet(driver);
-		return TimeSheet2;
+
 		
 
 	}

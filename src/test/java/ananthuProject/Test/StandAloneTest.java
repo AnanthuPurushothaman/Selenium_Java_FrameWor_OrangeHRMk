@@ -64,8 +64,8 @@ public class StandAloneTest extends BaseTest {
 		HrmCatalouge catalouge = landingPage.Login("Admin", "admin123");
 		String catNameTime="Time";
 		TimeSheet timeSheet = new TimeSheet(driver);
-		TimeSheet updateTimeSheet=timeSheet.timeSheetSearcgh(catNameTime);
-		updateTimeSheet.updateTimeSheet();
+		timeSheet.timeSheetSearcgh(catNameTime);
+		timeSheet.updateTimeSheet();
 		//this comment is just got git push
 		
 	}
