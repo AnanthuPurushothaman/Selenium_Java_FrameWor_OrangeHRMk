@@ -92,15 +92,12 @@ public class LandingPage {
 			
 			menuList.get(i).sendKeys(controlEnter);
 			
-			//menuList.stream().forEach(a->System.out.println(a.getAttribute("href")));
 			
 			HttpURLConnection conn = (HttpURLConnection) new URL(URL).openConnection();
 			conn.setRequestMethod("GET");
 			conn.connect();
 		    int respCode=conn.getResponseCode();
 		    System.out.println(respCode);
-		    System.out.println(conn.getDate());
-		    System.out.println(conn.getResponseMessage());
 		    
 		   
 		    
