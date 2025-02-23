@@ -29,6 +29,11 @@
 			<class name="ananthuProject.Test.CheckVisibilityTest" />
 		</classes>
 	</test>
+	<test thread-count="5" name="Unit2">
+		<classes>
+			<class name="ananthuProject.Test.APITest" />
+		</classes>
+	</test>
 
 
 </suite> 

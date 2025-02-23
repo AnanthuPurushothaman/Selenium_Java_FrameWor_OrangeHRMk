@@ -15,6 +15,7 @@
             <class name="ananthuProject.Test.LoginCheckTest"/>
             <class name="ananthuProject.Test.CheckVisibilityTest"/>
             <class name="ananthuProject.Test.PIMpageTest"/>
+            <class name="ananthuProject.Test.APITest"/>
         </classes>
     </test>
 </suite>

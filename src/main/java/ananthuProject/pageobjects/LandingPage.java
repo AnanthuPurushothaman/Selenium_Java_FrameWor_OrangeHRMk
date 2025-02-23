@@ -1,11 +1,21 @@
 package ananthuProject.pageobjects;
 
+import static org.testng.Assert.assertTrue;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.List;
+
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.asserts.SoftAssert;
 
 public class LandingPage {
 
@@ -30,6 +40,11 @@ public class LandingPage {
 	
 	@FindBy(css="p[class='oxd-text oxd-text--p oxd-alert-content-text']")
 	WebElement credentialsError;
+	
+	
+	//menu options
+	@FindBy(css=".oxd-main-menu-item")
+	List<WebElement> menuList;
 	
 	public HrmCatalouge catObject() {
 		
@@ -62,4 +77,47 @@ public class LandingPage {
 	return CredentialsErrorMessage;
 		
 	}
+	
+	
+	public boolean menuUrlAPIcalls() throws MalformedURLException, IOException {
+		
+		SoftAssert a= new SoftAssert();
+		
+		for(int i=0; i<menuList.size();i++) {
+			
+			String URL=menuList.get(i).getAttribute("href");
+			String controlEnter=Keys.chord(Keys.CONTROL,Keys.ENTER);
+			
+			System.out.println(menuList.get(i).getAttribute("href"));
+			
+			menuList.get(i).sendKeys(controlEnter);
+			
+			//menuList.stream().forEach(a->System.out.println(a.getAttribute("href")));
+			
+			HttpURLConnection conn = (HttpURLConnection) new URL(URL).openConnection();
+			conn.setRequestMethod("GET");
+			conn.connect();
+		    int respCode=conn.getResponseCode();
+		    System.out.println(respCode);
+		    System.out.println(conn.getDate());
+		    System.out.println(conn.getResponseMessage());
+		    
+		   
+		    
+		   a.assertTrue(respCode<300,"invalid response");
+			
+		   
+		}
+		
+		
+	     a.assertAll();
+	     
+	     return true;
+		
+		
+		
+	}
+	
+	
+	
 }

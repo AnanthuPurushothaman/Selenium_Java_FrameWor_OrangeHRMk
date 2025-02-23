@@ -24,12 +24,18 @@ public class PimPage extends AbstarctComponent {
 	
 	String expectedHelpPageTitle="How to Filter the Employee List – OrangeHRM";
 
-	public PimPage(WebDriver driver) {
-		super(driver);
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+	
 
+	
+	
+	public PimPage(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		// TODO Auto-generated constructor stub
+				super(driver);
+				this.driver = driver;
+				PageFactory.initElements(driver, this);
 	}
+
 
 	@FindBy(xpath = "//div[@class='oxd-table-cell oxd-padding-cell'][3]")
 	List<WebElement> myList1;

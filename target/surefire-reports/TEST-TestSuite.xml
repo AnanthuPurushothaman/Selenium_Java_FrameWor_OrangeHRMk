@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="215.125" tests="19" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="169.915" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\gopik\.cache\selenium\chromedriver\win64\114.0.5735.90\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\gopik\eclipse-workspace\OrangeHRM_Framework\target\test-classes;C:\Users\gopik\eclipse-workspace\OrangeHRM_Framework\target\classes;C:\Users\gopik\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.0\webdrivermanager-5.6.0.jar;C:\Users\gopik\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\gopik\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\gopik\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\gopik\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\gopik\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\gopik\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\gopik\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\gopik\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\gopik\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\gopik\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\gopik\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\gopik\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\gopik\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\gopik\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\gopik\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\gopik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\gopik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\gopik\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\gopik\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\gopik\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\gopik\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\gopik\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\gopik\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\gopik\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\gopik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gopik\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\gopik\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gopik\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gopik\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gopik\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gopik\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\gopik\AppData\Local\Temp\surefire18108785705236266811\surefirebooter-20250218085615337_3.jar C:\Users\gopik\AppData\Local\Temp\surefire18108785705236266811 2025-02-18T08-56-14_712-jvmRun1 surefire-20250218085615337_1tmp surefire_0-20250218085615337_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\gopik\AppData\Local\Temp\surefire13303871335158149135\surefirebooter-20250223170205706_3.jar C:\Users\gopik\AppData\Local\Temp\surefire13303871335158149135 2025-02-23T17-02-05_497-jvmRun1 surefire-20250223170205706_1tmp surefire_0-20250223170205706_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\gopik\eclipse-workspace\OrangeHRM_Framework\target\test-classes;C:\Users\gopik\eclipse-workspace\OrangeHRM_Framework\target\classes;C:\Users\gopik\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.0\webdrivermanager-5.6.0.jar;C:\Users\gopik\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\gopik\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\gopik\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\gopik\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\gopik\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\gopik\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\gopik\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\gopik\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\gopik\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\gopik\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\gopik\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\gopik\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\gopik\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\gopik\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\gopik\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\gopik\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\gopik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\gopik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\gopik\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\gopik\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\gopik\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\gopik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\gopik\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\gopik\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\gopik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\gopik\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\gopik\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\gopik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\gopik\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\gopik\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\gopik\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\gopik\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\gopik\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\gopik\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,17 +30,18 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\gopik\AppData\Local\Temp\surefire18108785705236266811\surefirebooter-20250218085615337_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gopik\AppData\Local\Temp\surefire13303871335158149135\surefirebooter-20250223170205706_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="webdriver.edge.driver" value="C:\Users\gopik\.cache\selenium\msedgedriver\win64\133.0.3065.82\msedgedriver.exe"/>
     <property name="user.name" value="gopik"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="chrome"/>
+    <property name="browser" value="edge"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\gopik\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Users\gopik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.4\bin;;C:\Users\gopik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gopik\AppData\Roaming\npm;C:\Program Files\Java\jdk-21\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\gopik\AppData\Local\Android\Sdk\tools\bin;C:\Users\gopik\AppData\Local\Android\Sdk\tools;C:\Users\gopik\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gopik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.4\bin;;C:\Users\gopik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\gopik\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -60,142 +60,158 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testUpdatingUserName" classname="ananthuProject.Test.StandAloneTest" time="26.783">
+  <testcase name="testUpdatingUserName" classname="ananthuProject.Test.StandAloneTest" time="21.924">
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Feb 18, 2025 8:56:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:56:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 23, 2025 5:02:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="searchNameInTimeSheet" classname="ananthuProject.Test.StandAloneTest" time="8.023">
-    <system-err><![CDATA[Feb 18, 2025 8:57:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:57:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="searchNameInTimeSheet" classname="ananthuProject.Test.StandAloneTest" time="5.288">
+    <system-err><![CDATA[Feb 23, 2025 5:02:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="searchUpdatedUserFromDirectory" classname="ananthuProject.Test.StandAloneTest" time="9.178">
-    <system-err><![CDATA[Feb 18, 2025 8:57:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:57:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="searchUpdatedUserFromDirectory" classname="ananthuProject.Test.StandAloneTest" time="5.973">
+    <system-err><![CDATA[Feb 23, 2025 5:02:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInError[Ananthu, test123](1)" classname="ananthuProject.Test.LoginCheckTest" time="2.199">
-    <system-err><![CDATA[Feb 18, 2025 8:57:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:57:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInError[Ananthu, test123](1)" classname="ananthuProject.Test.LoginCheckTest" time="1.14">
+    <system-err><![CDATA[Feb 23, 2025 5:03:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInError[jackson, test896](2)" classname="ananthuProject.Test.LoginCheckTest" time="1.747">
-    <system-err><![CDATA[Feb 18, 2025 8:57:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:57:39 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInError[jackson, test896](2)" classname="ananthuProject.Test.LoginCheckTest" time="1.249">
+    <system-err><![CDATA[Feb 23, 2025 5:03:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInError[Test, ananthu](3)" classname="ananthuProject.Test.LoginCheckTest" time="1.719">
-    <system-err><![CDATA[Feb 18, 2025 8:57:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:57:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInError[Test, ananthu](3)" classname="ananthuProject.Test.LoginCheckTest" time="1.149">
+    <system-err><![CDATA[Feb 23, 2025 5:03:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInError[sdwdfsf, sdfsdfgdggdf](4)" classname="ananthuProject.Test.LoginCheckTest" time="2.356">
-    <system-err><![CDATA[Feb 18, 2025 8:57:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:57:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInError[sdwdfsf, sdfsdfgdggdf](4)" classname="ananthuProject.Test.LoginCheckTest" time="1.087">
+    <system-err><![CDATA[Feb 23, 2025 5:03:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithDataBaseCredentials[ananthu, anan123](1)" classname="ananthuProject.Test.LoginCheckTest" time="2.351">
-    <system-err><![CDATA[Feb 18, 2025 8:58:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInWithDataBaseCredentials[ananthu, anan123](1)" classname="ananthuProject.Test.LoginCheckTest" time="1.134">
+    <system-err><![CDATA[Feb 23, 2025 5:03:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithDataBaseCredentials[gopika, gopika123](2)" classname="ananthuProject.Test.LoginCheckTest" time="2.134">
-    <system-err><![CDATA[Feb 18, 2025 8:58:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInWithDataBaseCredentials[gopika, gopika123](2)" classname="ananthuProject.Test.LoginCheckTest" time="1.111">
+    <system-err><![CDATA[Feb 23, 2025 5:03:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithDataBaseCredentials[dhanush, dhan123](3)" classname="ananthuProject.Test.LoginCheckTest" time="2.096">
-    <system-err><![CDATA[Feb 18, 2025 8:58:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInWithDataBaseCredentials[dhanush, dhan123](3)" classname="ananthuProject.Test.LoginCheckTest" time="1.222">
+    <system-err><![CDATA[Feb 23, 2025 5:03:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithDataBaseCredentials[vijay, vij123](4)" classname="ananthuProject.Test.LoginCheckTest" time="3.254">
-    <system-err><![CDATA[Feb 18, 2025 8:58:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInWithDataBaseCredentials[vijay, vij123](4)" classname="ananthuProject.Test.LoginCheckTest" time="1.102">
+    <system-err><![CDATA[Feb 23, 2025 5:03:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithDataBaseCredentials[sureshgobi, sure123](5)" classname="ananthuProject.Test.LoginCheckTest" time="2.145">
-    <system-err><![CDATA[Feb 18, 2025 8:58:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInWithDataBaseCredentials[sureshgobi, sure123](5)" classname="ananthuProject.Test.LoginCheckTest" time="1.092">
+    <system-err><![CDATA[Feb 23, 2025 5:03:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithDataBaseCredentials[dileep, dil123](6)" classname="ananthuProject.Test.LoginCheckTest" time="1.794">
-    <system-err><![CDATA[Feb 18, 2025 8:58:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInWithDataBaseCredentials[dileep, dil123](6)" classname="ananthuProject.Test.LoginCheckTest" time="1.095">
+    <system-err><![CDATA[Feb 23, 2025 5:03:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithDataBaseCredentials[manju, manj123](7)" classname="ananthuProject.Test.LoginCheckTest" time="1.911">
-    <system-err><![CDATA[Feb 18, 2025 8:58:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInWithDataBaseCredentials[manju, manj123](7)" classname="ananthuProject.Test.LoginCheckTest" time="1.107">
+    <system-err><![CDATA[Feb 23, 2025 5:03:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInWithDataBaseCredentials[tony, anan123](8)" classname="ananthuProject.Test.LoginCheckTest" time="1.713">
-    <system-err><![CDATA[Feb 18, 2025 8:58:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="logInWithDataBaseCredentials[tony, anan123](8)" classname="ananthuProject.Test.LoginCheckTest" time="1.086">
+    <system-err><![CDATA[Feb 23, 2025 5:03:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="passwordReset" classname="ananthuProject.Test.LoginCheckTest" time="2.629">
-    <system-err><![CDATA[Feb 18, 2025 8:58:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:58:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="passwordReset" classname="ananthuProject.Test.LoginCheckTest" time="1.609">
+    <system-err><![CDATA[Feb 23, 2025 5:03:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="checkTheVisibilityofH6" classname="ananthuProject.Test.CheckVisibilityTest" time="4.306">
-    <system-err><![CDATA[Feb 18, 2025 8:59:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:59:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="checkTheVisibilityofH6" classname="ananthuProject.Test.CheckVisibilityTest" time="2.595">
+    <system-err><![CDATA[Feb 23, 2025 5:04:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="testTotalRecord" classname="ananthuProject.Test.CheckVisibilityTest" time="24.278">
-    <system-err><![CDATA[Feb 18, 2025 8:59:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:59:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+  <testcase name="testTotalRecord" classname="ananthuProject.Test.CheckVisibilityTest" time="16.511">
+    <system-err><![CDATA[Feb 23, 2025 5:04:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="testHelpButton" classname="ananthuProject.Test.PIMpageTest" time="8.228">
+  <testcase name="testHelpButton" classname="ananthuProject.Test.PIMpageTest" time="5.082">
     <system-out><![CDATA[How to Filter the Employee List – OrangeHRM
 ]]></system-out>
-    <system-err><![CDATA[Feb 18, 2025 8:59:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 114
-Feb 18, 2025 8:59:41 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 114.0.5735.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+    <system-err><![CDATA[Feb 23, 2025 5:04:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="APIstatusCheck" classname="ananthuProject.Test.APITest" time="9.554">
+    <system-out><![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule
+200
+1740348285000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule
+200
+1740348286000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule
+200
+1740348286000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule
+200
+1740348287000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule
+200
+1740348288000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails
+200
+1740348288000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule
+200
+1740348289000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+200
+1740348289000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory
+200
+1740348290000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule
+200
+1740348291000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule
+200
+1740348291000
+OK
+https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz
+200
+1740348292000
+OK
+]]></system-out>
+    <system-err><![CDATA[Feb 23, 2025 5:04:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
 </testsuite>
