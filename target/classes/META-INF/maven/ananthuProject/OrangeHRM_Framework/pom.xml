@@ -45,10 +45,9 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.7.0</version>  <!-- Adjust to the latest stable version -->
-			<scope>test</scope>
+			<version>7.10.2</version>
+			<scope>compile</scope>
 		</dependency>
-
 
 		<dependency>
 			<groupId>commons-io</groupId>
