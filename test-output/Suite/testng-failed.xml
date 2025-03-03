@@ -4,6 +4,19 @@
   <listeners>
     <listener class-name="ananthuProject.TestComponents.Listeners"/>
   </listeners>
+  <test thread-count="5" parallel="tests" name="E2E(failed)">
+    <classes>
+      <class name="ananthuProject.Test.StandAloneTest">
+        <methods>
+          <include name="searchNameInTimeSheet"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="searchUpdatedUserFromDirectory"/>
+          <include name="testUpdatingUserName"/>
+        </methods>
+      </class> <!-- ananthuProject.Test.StandAloneTest -->
+    </classes>
+  </test> <!-- E2E(failed) -->
   <test thread-count="5" parallel="tests" name="Unit2(failed)">
     <classes>
       <class name="ananthuProject.Test.CheckVisibilityTest">
@@ -11,8 +24,32 @@
           <include name="closeBrowser"/>
           <include name="testTotalRecord"/>
           <include name="launchApplication"/>
+          <include name="checkTheVisibilityofH6"/>
         </methods>
       </class> <!-- ananthuProject.Test.CheckVisibilityTest -->
     </classes>
   </test> <!-- Unit2(failed) -->
+  <test thread-count="5" parallel="tests" name="E2E-main(failed)">
+    <classes>
+      <class name="ananthuProject.Test.PIMpageTest">
+        <methods>
+          <include name="testHelpButton"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- ananthuProject.Test.PIMpageTest -->
+    </classes>
+  </test> <!-- E2E-main(failed) -->
+  <test thread-count="5" parallel="tests" name="Unit(failed)">
+    <classes>
+      <class name="ananthuProject.Test.LoginCheckTest">
+        <methods>
+          <include name="logInWithDataBaseCredentials"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="passwordReset"/>
+        </methods>
+      </class> <!-- ananthuProject.Test.LoginCheckTest -->
+    </classes>
+  </test> <!-- Unit(failed) -->
 </suite> <!-- Failed suite [Suite] -->

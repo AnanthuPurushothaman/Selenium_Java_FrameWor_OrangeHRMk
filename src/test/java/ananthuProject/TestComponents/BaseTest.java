@@ -31,8 +31,7 @@ public class BaseTest {
 	public WebDriver initializeDriver() throws IOException {
 
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\ananthuProject\\resources\\GlobalData.properties");
+		FileInputStream fis = new FileInputStream("/Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/src/main/java/ananthuProject/resources/GlobalData.properties");
 		prop.load(fis);
 
 		String browserName = System.getProperty("browser") != null ? System.getProperty("browser")
@@ -89,7 +88,8 @@ public class BaseTest {
 	}
 
 	@AfterMethod
-	public void closeBrowser() {
+	public void closeBrowser() throws InterruptedException {
+		Thread.sleep(3000);
 		driver.quit();
 	}
 

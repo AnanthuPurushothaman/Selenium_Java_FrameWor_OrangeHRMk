@@ -50,13 +50,13 @@ public class MyInfoPage extends AbstarctComponent {
 		Thread.sleep(2000);
 
 		a.moveToElement(firstName).click() // Click to focus on the input field
-				.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL) // Select all text
-				.sendKeys(Keys.BACK_SPACE) // Delete the selected text
+				.keyDown(Keys.COMMAND).sendKeys("a").keyUp(Keys.COMMAND) // Select all text
+				.sendKeys(Keys.DELETE) // Delete the selected text
 				.sendKeys(actualName.toLowerCase()) // Send lowercase text
 				.build().perform();
 		a.moveToElement(lastName).click() // Click to focus on the input field
-				.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL) // Select all text
-				.sendKeys(Keys.BACK_SPACE) // Delete the selected text
+				.keyDown(Keys.COMMAND).sendKeys("a").keyUp(Keys.COMMAND) // Select all text
+				.sendKeys(Keys.DELETE) // Delete the selected text
 				.sendKeys(actualLastName.toLowerCase()) // Send lowercase text
 				.build().perform();
 		saveButton.click();

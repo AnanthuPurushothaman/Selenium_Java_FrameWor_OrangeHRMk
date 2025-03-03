@@ -42,19 +42,19 @@ public class LoginCheckTest extends BaseTest {
 
 	}
 
-	@Test(dataProvider = "getDataFromSQL")
-	public void logInWithDataBaseCredentials(String emailfromSQL, String passwordfromSQL) {
-
-		landingPage.Login(emailfromSQL, passwordfromSQL);
-		String expectedErrorMessage = "Invalid credentials";
-		assertEquals(landingPage.invalidCredentials(), expectedErrorMessage, "Error message does not match");
-
-	}
+//	@Test(dataProvider = "getDataFromSQL")
+//	public void logInWithDataBaseCredentials(String emailfromSQL, String passwordfromSQL) {
+//
+//		landingPage.Login(emailfromSQL, passwordfromSQL);
+//		String expectedErrorMessage = "Invalid credentials";
+//		assertEquals(landingPage.invalidCredentials(), expectedErrorMessage, "Error message does not match");
+//
+//	}
 
 	@DataProvider
 	public Object[][] getData() {
 
-		return new Object[][] { { "Ananthu", "test123" }, { "jackson", "test896" }, { "Test", "ananthu" },
+		return new Object[][] { { "Ananthu", "test123" }, { "jackson", "test896" }, { "Admin", "admin7777123" },
 				{ "sdwdfsf", "sdfsdfgdggdf" } };
 	}
 

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ananthuProject.Test.APITest">
+      <class name="ananthuProject.Test.StandAloneTest">
         <methods>
           <include name="closeBrowser"/>
-          <include name="APIstatusCheck"/>
           <include name="launchApplication"/>
+          <include name="testUpdatingUserName"/>
         </methods>
-      </class> <!-- ananthuProject.Test.APITest -->
+      </class> <!-- ananthuProject.Test.StandAloneTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
