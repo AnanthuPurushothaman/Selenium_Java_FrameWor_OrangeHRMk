@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 03 13:38:32 EST 2025</td>
+<td>Started on:</td><td>Thu Mar 06 22:16:17 EST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>140 seconds (140260 ms)</td>
+<tr><td>Total time:</td><td>124 seconds (124420 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,62 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ananthuProject.Test.LoginCheckTest.logInError()'><b>logInError</b><br>Test class: ananthuProject.Test.LoginCheckTest<br>Parameters: Admin, admin123</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;p[class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;]&quot;}
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.1&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a830f6085d32bd667187078edee67689, findElement {using=css selector, value=p[class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/ls/9f0zxdtx351...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54446/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a830f6085d32bd667187078edee67689
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-	at ananthuProject.pageobjects.LandingPage.invalidCredentials(LandingPage.java:73)
-	at ananthuProject.Test.LoginCheckTest.logInError(LoginCheckTest.java:29)
+<td title='ananthuProject.Test.StandAloneTest.searchUpdatedUserFromDirectory()'><b>searchUpdatedUserFromDirectory</b><br>Test class: ananthuProject.Test.StandAloneTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;selectJobTitle&quot; is null
+	at ananthuProject.pageobjects.DirectoryPage.myAction(DirectoryPage.java:55)
+	at ananthuProject.Test.StandAloneTest.searchUpdatedUserFromDirectory(StandAloneTest.java:57)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1794710728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1794710728'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;p[class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;]&quot;}
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.1&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a830f6085d32bd667187078edee67689, findElement {using=css selector, value=p[class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/ls/9f0zxdtx351...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54446/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a830f6085d32bd667187078edee67689
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-	at ananthuProject.pageobjects.LandingPage.invalidCredentials(LandingPage.java:73)
-	at ananthuProject.Test.LoginCheckTest.logInError(LoginCheckTest.java:29)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1148735023", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1148735023'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;selectJobTitle&quot; is null
+	at ananthuProject.pageobjects.DirectoryPage.myAction(DirectoryPage.java:55)
+	at ananthuProject.Test.StandAloneTest.searchUpdatedUserFromDirectory(StandAloneTest.java:57)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -163,8 +116,8 @@ Session ID: a830f6085d32bd667187078edee67689
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>11</td>
-<td>ananthuProject.Test.LoginCheckTest@5b799640</td></tr>
+<td>4</td>
+<td>ananthuProject.Test.StandAloneTest@1033576a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -175,57 +128,57 @@ Session ID: a830f6085d32bd667187078edee67689
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ananthuProject.Test.CheckVisibilityTest.checkTheVisibilityofH6()'><b>checkTheVisibilityofH6</b><br>Test class: ananthuProject.Test.CheckVisibilityTest</td>
-<td></td>
-<td>1</td>
-<td>ananthuProject.Test.CheckVisibilityTest@6cb107fd</td></tr>
-<tr>
-<td title='ananthuProject.Test.CheckVisibilityTest.testTotalRecord()'><b>testTotalRecord</b><br>Test class: ananthuProject.Test.CheckVisibilityTest</td>
-<td></td>
-<td>15</td>
-<td>ananthuProject.Test.CheckVisibilityTest@6cb107fd</td></tr>
-<tr>
-<td title='ananthuProject.Test.APITest.APIstatusCheck()'><b>APIstatusCheck</b><br>Test class: ananthuProject.Test.APITest</td>
-<td></td>
-<td>18</td>
-<td>ananthuProject.Test.APITest@3de8f619</td></tr>
-<tr>
-<td title='ananthuProject.Test.LoginCheckTest.logInError()'><b>logInError</b><br>Test class: ananthuProject.Test.LoginCheckTest<br>Parameters: Ananthu, test123</td>
-<td></td>
-<td>0</td>
-<td>ananthuProject.Test.LoginCheckTest@5b799640</td></tr>
-<tr>
-<td title='ananthuProject.Test.LoginCheckTest.logInError()'><b>logInError</b><br>Test class: ananthuProject.Test.LoginCheckTest<br>Parameters: jackson, test896</td>
-<td></td>
-<td>0</td>
-<td>ananthuProject.Test.LoginCheckTest@5b799640</td></tr>
-<tr>
-<td title='ananthuProject.Test.PIMpageTest.testHelpButton()'><b>testHelpButton</b><br>Test class: ananthuProject.Test.PIMpageTest</td>
-<td></td>
-<td>3</td>
-<td>ananthuProject.Test.PIMpageTest@710636b0</td></tr>
-<tr>
-<td title='ananthuProject.Test.StandAloneTest.searchNameInTimeSheet()'><b>searchNameInTimeSheet</b><br>Test class: ananthuProject.Test.StandAloneTest</td>
-<td></td>
-<td>4</td>
-<td>ananthuProject.Test.StandAloneTest@1033576a</td></tr>
-<tr>
-<td title='ananthuProject.Test.StandAloneTest.testUpdatingUserName()'><b>testUpdatingUserName</b><br>Test class: ananthuProject.Test.StandAloneTest</td>
-<td></td>
-<td>20</td>
-<td>ananthuProject.Test.StandAloneTest@1033576a</td></tr>
-<tr>
-<td title='ananthuProject.Test.StandAloneTest.searchUpdatedUserFromDirectory()'><b>searchUpdatedUserFromDirectory</b><br>Test class: ananthuProject.Test.StandAloneTest</td>
-<td></td>
-<td>4</td>
-<td>ananthuProject.Test.StandAloneTest@1033576a</td></tr>
-<tr>
 <td title='ananthuProject.Test.LoginCheckTest.logInError()'><b>logInError</b><br>Test class: ananthuProject.Test.LoginCheckTest<br>Parameters: sdwdfsf, sdfsdfgdggdf</td>
 <td></td>
 <td>0</td>
 <td>ananthuProject.Test.LoginCheckTest@5b799640</td></tr>
 <tr>
 <td title='ananthuProject.Test.LoginCheckTest.passwordReset()'><b>passwordReset</b><br>Test class: ananthuProject.Test.LoginCheckTest</td>
+<td></td>
+<td>1</td>
+<td>ananthuProject.Test.LoginCheckTest@5b799640</td></tr>
+<tr>
+<td title='ananthuProject.Test.StandAloneTest.testUpdatingUserName()'><b>testUpdatingUserName</b><br>Test class: ananthuProject.Test.StandAloneTest</td>
+<td></td>
+<td>20</td>
+<td>ananthuProject.Test.StandAloneTest@1033576a</td></tr>
+<tr>
+<td title='ananthuProject.Test.CheckVisibilityTest.checkTheVisibilityofH6()'><b>checkTheVisibilityofH6</b><br>Test class: ananthuProject.Test.CheckVisibilityTest</td>
+<td></td>
+<td>1</td>
+<td>ananthuProject.Test.CheckVisibilityTest@6cb107fd</td></tr>
+<tr>
+<td title='ananthuProject.Test.LoginCheckTest.logInError()'><b>logInError</b><br>Test class: ananthuProject.Test.LoginCheckTest<br>Parameters: jackson, test896</td>
+<td></td>
+<td>0</td>
+<td>ananthuProject.Test.LoginCheckTest@5b799640</td></tr>
+<tr>
+<td title='ananthuProject.Test.LoginCheckTest.logInError()'><b>logInError</b><br>Test class: ananthuProject.Test.LoginCheckTest<br>Parameters: Ananthu, test123</td>
+<td></td>
+<td>0</td>
+<td>ananthuProject.Test.LoginCheckTest@5b799640</td></tr>
+<tr>
+<td title='ananthuProject.Test.APITest.APIstatusCheck()'><b>APIstatusCheck</b><br>Test class: ananthuProject.Test.APITest</td>
+<td></td>
+<td>20</td>
+<td>ananthuProject.Test.APITest@3de8f619</td></tr>
+<tr>
+<td title='ananthuProject.Test.CheckVisibilityTest.testTotalRecord()'><b>testTotalRecord</b><br>Test class: ananthuProject.Test.CheckVisibilityTest</td>
+<td></td>
+<td>15</td>
+<td>ananthuProject.Test.CheckVisibilityTest@6cb107fd</td></tr>
+<tr>
+<td title='ananthuProject.Test.StandAloneTest.searchNameInTimeSheet()'><b>searchNameInTimeSheet</b><br>Test class: ananthuProject.Test.StandAloneTest</td>
+<td></td>
+<td>4</td>
+<td>ananthuProject.Test.StandAloneTest@1033576a</td></tr>
+<tr>
+<td title='ananthuProject.Test.PIMpageTest.testHelpButton()'><b>testHelpButton</b><br>Test class: ananthuProject.Test.PIMpageTest</td>
+<td></td>
+<td>3</td>
+<td>ananthuProject.Test.PIMpageTest@710636b0</td></tr>
+<tr>
+<td title='ananthuProject.Test.LoginCheckTest.logInError()'><b>logInError</b><br>Test class: ananthuProject.Test.LoginCheckTest<br>Parameters: Admin, admin7777123</td>
 <td></td>
 <td>1</td>
 <td>ananthuProject.Test.LoginCheckTest@5b799640</td></tr>

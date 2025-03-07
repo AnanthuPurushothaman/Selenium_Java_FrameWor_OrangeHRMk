@@ -7,6 +7,7 @@
         <methods>
           <include name="closeBrowser"/>
           <include name="launchApplication"/>
+          <include name="searchUpdatedUserFromDirectory"/>
           <include name="testUpdatingUserName"/>
         </methods>
       </class> <!-- ananthuProject.Test.StandAloneTest -->

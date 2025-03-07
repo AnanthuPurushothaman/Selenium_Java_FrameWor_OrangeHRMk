@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="140.541" tests="12" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="124.72" tests="12" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="/Users/ananthupurushothaman/.cache/selenium/chromedriver/mac-arm64/133.0.6943.141/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/target/surefire/surefirebooter-20250303133832384_3.jar /Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/target/surefire 2025-03-03T13-38-32_358-jvmRun1 surefire-20250303133832384_1tmp surefire_0-20250303133832384_2tmp"/>
+    <property name="sun.java.command" value="/Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/target/surefire/surefirebooter-20250306221617653_3.jar /Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/target/surefire 2025-03-06T22-16-17_626-jvmRun1 surefire-20250306221617653_1tmp surefire_0-20250306221617653_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/target/test-classes:/Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/target/classes:/Users/ananthupurushothaman/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.0/webdrivermanager-5.6.0.jar:/Users/ananthupurushothaman/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/ananthupurushothaman/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/ananthupurushothaman/.m2/repository/com/github/docker-java/docker-java/3.3.3/docker-java-3.3.3.jar:/Users/ananthupurushothaman/.m2/repository/com/github/docker-java/docker-java-core/3.3.3/docker-java-core-3.3.3.jar:/Users/ananthupurushothaman/.m2/repository/com/github/docker-java/docker-java-api/3.3.3/docker-java-api-3.3.3.jar:/Users/ananthupurushothaman/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ananthupurushothaman/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ananthupurushothaman/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ananthupurushothaman/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75.jar:/Users/ananthupurushothaman/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.75/bcprov-jdk18on-1.75.jar:/Users/ananthupurushothaman/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.75/bcutil-jdk18on-1.75.jar:/Users/ananthupurushothaman/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ananthupurushothaman/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.3/docker-java-transport-httpclient5-3.3.3.jar:/Users/ananthupurushothaman/.m2/repository/com/github/docker-java/docker-java-transport/3.3.3/docker-java-transport-3.3.3.jar:/Users/ananthupurushothaman/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/ananthupurushothaman/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ananthupurushothaman/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/Users/ananthupurushothaman/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/ananthupurushothaman/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/ananthupurushothaman/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/ananthupurushothaman/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/ananthupurushothaman/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/ananthupurushothaman/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/Users/ananthupurushothaman/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-java/4.27.0/selenium-java-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-api/4.27.0/selenium-api-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.27.0/selenium-chrome-driver-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.27.0/selenium-chromium-driver-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-json/4.27.0/selenium-json-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.27.0/selenium-manager-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v129/4.27.0/selenium-devtools-v129-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.27.0/selenium-devtools-v130-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.27.0/selenium-devtools-v131-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.27.0/selenium-devtools-v85-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.27.0/selenium-edge-driver-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.27.0/selenium-firefox-driver-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-http/4.27.0/selenium-http-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.27.0/selenium-ie-driver-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.27.0/selenium-remote-driver-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar:/Users/ananthupurushothaman/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/ananthupurushothaman/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ananthupurushothaman/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ananthupurushothaman/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/ananthupurushothaman/.m2/repository/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/Users/ananthupurushothaman/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-api/1.44.1/opentelemetry-api-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-context/1.44.1/opentelemetry-context-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.44.1/opentelemetry-exporter-logging-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.44.1/opentelemetry-sdk-common-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.44.1/opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.44.1/opentelemetry-sdk-extension-autoconfigure-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.44.1-alpha/opentelemetry-api-incubator-1.44.1-alpha.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.44.1/opentelemetry-sdk-trace-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.44.1/opentelemetry-sdk-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.44.1/opentelemetry-sdk-metrics-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.44.1/opentelemetry-sdk-logs-1.44.1.jar:/Users/ananthupurushothaman/.m2/repository/net/bytebuddy/byte-buddy/1.15.10/byte-buddy-1.15.10.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-os/4.27.0/selenium-os-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.27.0/selenium-safari-driver-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/seleniumhq/selenium/selenium-support/4.27.0/selenium-support-4.27.0.jar:/Users/ananthupurushothaman/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/ananthupurushothaman/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ananthupurushothaman/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ananthupurushothaman/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/ananthupurushothaman/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/ananthupurushothaman/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/ananthupurushothaman/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/ananthupurushothaman/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/target/surefire/surefirebooter-20250303133832384_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ananthupurushothaman/git/Selenium_Java_FrameWor_OrangeHRMk2/target/surefire/surefirebooter-20250306221617653_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -41,6 +41,7 @@
     <property name="os.version" value="15.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chromeheadless"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/ananthupurushothaman/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -59,64 +60,23 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testUpdatingUserName" classname="ananthuProject.Test.StandAloneTest" time="20.93">
+  <testcase name="testUpdatingUserName" classname="ananthuProject.Test.StandAloneTest" time="20.381">
     <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Mar 03, 2025 1:38:33 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 06, 2025 10:16:19 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="searchNameInTimeSheet" classname="ananthuProject.Test.StandAloneTest" time="4.562">
-    <system-err><![CDATA[Mar 03, 2025 1:38:58 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="searchNameInTimeSheet" classname="ananthuProject.Test.StandAloneTest" time="4.103">
+    <system-err><![CDATA[Mar 06, 2025 10:16:43 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="searchUpdatedUserFromDirectory" classname="ananthuProject.Test.StandAloneTest" time="4.834">
-    <system-err><![CDATA[Mar 03, 2025 1:39:08 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="logInError[Ananthu, test123](1)" classname="ananthuProject.Test.LoginCheckTest" time="0.627">
-    <system-err><![CDATA[Mar 03, 2025 1:39:17 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="logInError[jackson, test896](2)" classname="ananthuProject.Test.LoginCheckTest" time="0.681">
-    <system-err><![CDATA[Mar 03, 2025 1:39:22 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
-]]></system-err>
-  </testcase>
-  <testcase name="logInError[Admin, admin123](3)" classname="ananthuProject.Test.LoginCheckTest" time="11.149">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;p[class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;]&quot;}&#10;  (Session info: chrome=133.0.6943.142)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.3.1&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a830f6085d32bd667187078edee67689, findElement {using=css selector, value=p[class=&apos;oxd-text oxd-text--p oxd-alert-content-text&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/ls/9f0zxdtx351...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54446/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a830f6085d32bd667187078edee67689" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"p[class='oxd-text oxd-text--p oxd-alert-content-text']"}
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a830f6085d32bd667187078edee67689, findElement {using=css selector, value=p[class='oxd-text oxd-text--p oxd-alert-content-text']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/ls/9f0zxdtx351...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54446/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a830f6085d32bd667187078edee67689
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-	at ananthuProject.pageobjects.LandingPage.invalidCredentials(LandingPage.java:73)
-	at ananthuProject.Test.LoginCheckTest.logInError(LoginCheckTest.java:29)
+  <testcase name="searchUpdatedUserFromDirectory" classname="ananthuProject.Test.StandAloneTest" time="4.824">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;selectJobTitle&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "selectJobTitle" is null
+	at ananthuProject.pageobjects.DirectoryPage.myAction(DirectoryPage.java:55)
+	at ananthuProject.Test.StandAloneTest.searchUpdatedUserFromDirectory(StandAloneTest.java:57)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -148,38 +108,53 @@ Session ID: a830f6085d32bd667187078edee67689
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[Mar 03, 2025 1:39:28 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 06, 2025 10:16:51 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="logInError[sdwdfsf, sdfsdfgdggdf](4)" classname="ananthuProject.Test.LoginCheckTest" time="0.643">
-    <system-err><![CDATA[Mar 03, 2025 1:39:43 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="logInError[Ananthu, test123](1)" classname="ananthuProject.Test.LoginCheckTest" time="0.69">
+    <system-err><![CDATA[Mar 06, 2025 10:17:00 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="passwordReset" classname="ananthuProject.Test.LoginCheckTest" time="1.141">
-    <system-err><![CDATA[Mar 03, 2025 1:39:49 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="logInError[jackson, test896](2)" classname="ananthuProject.Test.LoginCheckTest" time="0.612">
+    <system-err><![CDATA[Mar 06, 2025 10:17:05 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="checkTheVisibilityofH6" classname="ananthuProject.Test.CheckVisibilityTest" time="1.675">
-    <system-err><![CDATA[Mar 03, 2025 1:39:54 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="logInError[Admin, admin7777123](3)" classname="ananthuProject.Test.LoginCheckTest" time="1.013">
+    <system-err><![CDATA[Mar 06, 2025 10:17:10 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="testTotalRecord" classname="ananthuProject.Test.CheckVisibilityTest" time="15.937">
-    <system-err><![CDATA[Mar 03, 2025 1:40:01 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="logInError[sdwdfsf, sdfsdfgdggdf](4)" classname="ananthuProject.Test.LoginCheckTest" time="0.6">
+    <system-err><![CDATA[Mar 06, 2025 10:17:15 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="testHelpButton" classname="ananthuProject.Test.PIMpageTest" time="3.405">
+  <testcase name="passwordReset" classname="ananthuProject.Test.LoginCheckTest" time="1.02">
+    <system-err><![CDATA[Mar 06, 2025 10:17:20 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="checkTheVisibilityofH6" classname="ananthuProject.Test.CheckVisibilityTest" time="1.636">
+    <system-err><![CDATA[Mar 06, 2025 10:17:25 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="testTotalRecord" classname="ananthuProject.Test.CheckVisibilityTest" time="15.847">
+    <system-err><![CDATA[Mar 06, 2025 10:17:30 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="testHelpButton" classname="ananthuProject.Test.PIMpageTest" time="3.67">
     <system-out><![CDATA[How to Filter the Employee List – OrangeHRM
 ]]></system-out>
-    <system-err><![CDATA[Mar 03, 2025 1:40:21 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 06, 2025 10:17:50 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>
-  <testcase name="APIstatusCheck" classname="ananthuProject.Test.APITest" time="18.702">
+  <testcase name="APIstatusCheck" classname="ananthuProject.Test.APITest" time="20.033">
     <system-out><![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule
 200
 https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule
@@ -201,7 +176,7 @@ https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory
 https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule
 200
 ]]></system-out>
-    <system-err><![CDATA[Mar 03, 2025 1:40:30 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 06, 2025 10:17:58 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
   </testcase>

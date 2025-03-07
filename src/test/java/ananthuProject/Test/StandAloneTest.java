@@ -51,10 +51,12 @@ public class StandAloneTest extends BaseTest {
 	@Test(dependsOnMethods= {"testUpdatingUserName"}) 
 	public void searchUpdatedUserFromDirectory() throws IOException, InterruptedException {
 		
+		
 		HrmCatalouge catalouge = landingPage.Login("Admin", "admin123");
 		String catName="Directory";
 		DirectoryPage directoryPage = new DirectoryPage(driver);
 		directoryPage.myAction(catName,actualName);
+		
 	}
 	
 	

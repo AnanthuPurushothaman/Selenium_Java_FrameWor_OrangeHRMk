@@ -6,13 +6,14 @@
   </listeners>
   <test thread-count="5" name="Login Tests(failed)" verbose="0">
     <classes>
-      <class name="ananthuProject.Test.LoginCheckTest">
+      <class name="ananthuProject.Test.StandAloneTest">
         <methods>
-          <include name="logInError" invocation-numbers="2"/>
           <include name="closeBrowser"/>
           <include name="launchApplication"/>
+          <include name="searchUpdatedUserFromDirectory"/>
+          <include name="testUpdatingUserName"/>
         </methods>
-      </class> <!-- ananthuProject.Test.LoginCheckTest -->
+      </class> <!-- ananthuProject.Test.StandAloneTest -->
     </classes>
   </test> <!-- Login Tests(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->
