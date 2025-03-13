@@ -14,7 +14,7 @@ import ananthuProject.AbstractComponent.AbstarctComponent;
 public class DirectoryPage extends AbstarctComponent{
 
 	
-	public String adminJobTitle="Project Manager";
+	public String adminJobTitle="HR Manager";
 	WebDriver driver;
 	String catName;
 	
