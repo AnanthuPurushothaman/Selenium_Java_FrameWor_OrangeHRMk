@@ -9,6 +9,7 @@
 	<test thread-count="5" name="E2E">
 		<classes>
 			<class name="ananthuProject.Test.StandAloneTest" />
+			<class name="ananthuProject.Test.CheckVisibilityTest" />
 		</classes>
 	</test>
 	

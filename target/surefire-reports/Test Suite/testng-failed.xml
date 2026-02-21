@@ -8,12 +8,20 @@
     <classes>
       <class name="ananthuProject.Test.StandAloneTest">
         <methods>
+          <include name="searchNameInTimeSheet"/>
           <include name="closeBrowser"/>
           <include name="launchApplication"/>
           <include name="searchUpdatedUserFromDirectory"/>
           <include name="testUpdatingUserName"/>
         </methods>
       </class> <!-- ananthuProject.Test.StandAloneTest -->
+      <class name="ananthuProject.Test.LoginCheckTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="passwordReset"/>
+        </methods>
+      </class> <!-- ananthuProject.Test.LoginCheckTest -->
     </classes>
   </test> <!-- Login Tests(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

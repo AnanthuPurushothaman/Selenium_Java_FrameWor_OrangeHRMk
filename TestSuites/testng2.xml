@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Test Suite">
+<suite name="Test Suite" parallel="classes" thread-count="5">
 
 
 <listeners>
@@ -9,7 +9,7 @@
 </listeners>
 
 
-    <test name="Login Tests">
+    <test thread-count="5" name="Login Tests">
         <classes>
             <class name="ananthuProject.Test.StandAloneTest"/>
             <class name="ananthuProject.Test.LoginCheckTest"/>

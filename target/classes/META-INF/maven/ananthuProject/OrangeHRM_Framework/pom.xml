@@ -35,11 +35,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.33</version> <!-- Use the latest version -->
 		</dependency>
-	<dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.18.0</version>
-</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.18.0</version>
+		</dependency>
 
 
 		<dependency>
@@ -76,20 +76,28 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.5.2</version>
-				<configuration>
-					<suiteXmlFiles>
-						<suiteXmlFile>TestSuites/testng2.xml</suiteXmlFile>
-					</suiteXmlFiles>
+<profiles>
+	<profile>
+	
+	
+		<id>Regression</id>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.5.2</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>TestSuites/testng2.xml</suiteXmlFile>
+						</suiteXmlFiles>
 
 
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+		
+	</profile>
+</profiles>
 </project>

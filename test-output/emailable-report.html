@@ -8,41 +8,75 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">35,409</td><td></td><td></td></tr>
+<tr><th colspan="8">Test Suite</th></tr>
+<tr><td><a href="#t0">Login Tests</a></td><td class="num">8</td><td class="num attn">2</td><td class="num attn">1</td><td class="num attn">2</td><td class="num">117,689</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ananthuProject.Test.StandAloneTest</td><td><a href="#m0">searchUpdatedUserFromDirectory</a></td><td rowspan="1">1741324662258</td><td rowspan="1">4714</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ananthuProject.Test.StandAloneTest</td><td><a href="#m1">testUpdatingUserName</a></td><td rowspan="1">1741324636538</td><td rowspan="1">21091</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ananthuProject.Test.LoginCheckTest</td><td><a href="#m0">passwordReset</a></td><td rowspan="1">1770171222292</td><td rowspan="1">64271</td></tr><tr class="failedodd"><td rowspan="1">ananthuProject.Test.StandAloneTest</td><td><a href="#m1">testUpdatingUserName</a></td><td rowspan="1">1770171176368</td><td rowspan="1">23209</td></tr><tr><th colspan="4">Login Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">ananthuProject.Test.StandAloneTest</td><td><a href="#m2">searchNameInTimeSheet</a></td><td rowspan="1">1770171202944</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">searchUpdatedUserFromDirectory</a></td><td rowspan="1">1770171202945</td><td rowspan="1">0</td></tr><tr><th colspan="4">Login Tests &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">ananthuProject.Test.PIMpageTest</td><td><a href="#m4">testHelpButton</a></td><td rowspan="1">1770171176314</td><td rowspan="1">15266</td></tr><tr><th colspan="4">Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ananthuProject.Test.APITest</td><td><a href="#m5">APIstatusCheck</a></td><td rowspan="1">1770171175914</td><td rowspan="1">69026</td></tr><tr class="passedodd"><td rowspan="2">ananthuProject.Test.CheckVisibilityTest</td><td><a href="#m6">checkTheVisibilityofH6</a></td><td rowspan="1">1770171175110</td><td rowspan="1">7210</td></tr><tr class="passedodd"><td><a href="#m7">testTotalRecord</a></td><td rowspan="1">1770171188644</td><td rowspan="1">38851</td></tr><tr class="passedeven"><td rowspan="4">ananthuProject.Test.LoginCheckTest</td><td><a href="#m8">logInError</a></td><td rowspan="4">1770171196955</td><td rowspan="4">9647</td></tr><tr class="passedeven"><td><a href="#m9">logInError</a></td></tr><tr class="passedeven"><td><a href="#m10">logInError</a></td></tr><tr class="passedeven"><td><a href="#m11">logInError</a></td></tr><tr class="passedodd"><td rowspan="1">ananthuProject.Test.PIMpageTest</td><td><a href="#m12">testHelpButton</a></td><td rowspan="1">1770171197755</td><td rowspan="1">20884</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">ananthuProject.Test.StandAloneTest#searchUpdatedUserFromDirectory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;selectJobTitle&quot; is null
-	at ananthuProject.pageobjects.DirectoryPage.myAction(DirectoryPage.java:55)
-	at ananthuProject.Test.StandAloneTest.searchUpdatedUserFromDirectory(StandAloneTest.java:58)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">ananthuProject.Test.StandAloneTest#testUpdatingUserName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Tests</h2><h3 id="m0">ananthuProject.Test.LoginCheckTest#passwordReset</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div/h6 (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.2&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: /var/folders/ls/9f0zxdtx351...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53721}, goog:processID: 6191, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53721/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef68db5c8bda988edbbd5fb21367ef17
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at ananthuProject.AbstractComponent.AbstarctComponent.waitForElementToAppear(AbstarctComponent.java:27)
+	at ananthuProject.pageobjects.PasswordResetPage.forgotPassword(PasswordResetPage.java:48)
+	at ananthuProject.Test.LoginCheckTest.passwordReset(LoginCheckTest.java:40)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ananthuProject.Test.StandAloneTest#testUpdatingUserName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button data-v-10d463b7=&quot;&quot; data-v-6653c066=&quot;&quot; type=&quot;submit&quot; class=&quot;oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space&quot;&gt;...&lt;/button&gt; is not clickable at point (1378, 708). Other element would receive the click: &lt;div data-v-d5bfe35b=&quot;&quot; class=&quot;oxd-form-loader&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=144.0.7559.110)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.2&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a2ff6042b20ef2393bc2efd240b1b15, clickElement {id=f.8EE024A31B9D46855C1ECF6814EDAC0E.d.456A051E6D2BC182D9CF5034C9A61D24.e.110}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: /var/folders/ls/9f0zxdtx351...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53447}, goog:processID: 5934, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53447/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (3a2ff6042b20ef2393bc2efd240b1b15)] -&gt; xpath: //div[@class=&apos;orangehrm-horizontal-padding orangehrm-vertical-padding&apos;]//button[@type=&apos;submit&apos;][normalize-space()=&apos;Save&apos;]]
+Session ID: 3a2ff6042b20ef2393bc2efd240b1b15
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at ananthuProject.pageobjects.MyInfoPage.updateName(MyInfoPage.java:62)
+	at ananthuProject.Test.StandAloneTest.testUpdatingUserName(StandAloneTest.java:45)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ananthuProject.Test.StandAloneTest#searchNameInTimeSheet</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method StandAloneTest.searchNameInTimeSheet()[pri:0, instance:ananthuProject.Test.StandAloneTest@61c4eee0] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ananthuProject.Test.StandAloneTest#searchUpdatedUserFromDirectory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method StandAloneTest.searchUpdatedUserFromDirectory()[pri:0, instance:ananthuProject.Test.StandAloneTest@61c4eee0] depends on not successfully finished methods
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ananthuProject.Test.PIMpageTest#testHelpButton</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at ananthuProject.Test.PIMpageTest.testHelpButton(PIMpageTest.java:20)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ananthuProject.Test.APITest#APIstatusCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ananthuProject.Test.CheckVisibilityTest#checkTheVisibilityofH6</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">ananthuProject.Test.CheckVisibilityTest#testTotalRecord</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">ananthuProject.Test.LoginCheckTest#logInError</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Admin</td><td>admin7777123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">ananthuProject.Test.LoginCheckTest#logInError</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sdwdfsf</td><td>sdfsdfgdggdf</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">ananthuProject.Test.LoginCheckTest#logInError</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Ananthu</td><td>test123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">ananthuProject.Test.LoginCheckTest#logInError</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>jackson</td><td>test896</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">ananthuProject.Test.PIMpageTest#testHelpButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
