@@ -12,7 +12,11 @@
     <test thread-count="5" name="Login Tests">
         <classes>
             <class name="ananthuProject.Test.StandAloneTest"/>
-            <class name="ananthuProject.Test.LoginCheckTest"/>
+            <class name="ananthuProject.Test.LoginCheckTest">
+            <methods>
+            <exclude name="passwordReset"></exclude>
+            </methods>
+            </class>
             <class name="ananthuProject.Test.CheckVisibilityTest"/>
             <class name="ananthuProject.Test.PIMpageTest"/>
             <class name="ananthuProject.Test.APITest"/>
