@@ -6,22 +6,6 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="Login Tests(failed)">
     <classes>
-      <class name="ananthuProject.Test.LoginCheckTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="launchApplication"/>
-          <include name="passwordReset"/>
-        </methods>
-      </class> <!-- ananthuProject.Test.LoginCheckTest -->
-      <class name="ananthuProject.Test.StandAloneTest">
-        <methods>
-          <include name="searchNameInTimeSheet"/>
-          <include name="closeBrowser"/>
-          <include name="launchApplication"/>
-          <include name="searchUpdatedUserFromDirectory"/>
-          <include name="testUpdatingUserName"/>
-        </methods>
-      </class> <!-- ananthuProject.Test.StandAloneTest -->
       <class name="ananthuProject.Test.PIMpageTest">
         <methods>
           <include name="testHelpButton"/>
@@ -29,6 +13,28 @@
           <include name="launchApplication"/>
         </methods>
       </class> <!-- ananthuProject.Test.PIMpageTest -->
+      <class name="ananthuProject.Test.CheckVisibilityTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testTotalRecord"/>
+          <include name="launchApplication"/>
+          <include name="checkTheVisibilityofH6"/>
+        </methods>
+      </class> <!-- ananthuProject.Test.CheckVisibilityTest -->
+      <class name="ananthuProject.Test.LoginCheckTest">
+        <methods>
+          <include name="logInError" invocation-numbers="0 1"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- ananthuProject.Test.LoginCheckTest -->
+      <class name="ananthuProject.Test.APITest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="APIstatusCheck"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- ananthuProject.Test.APITest -->
     </classes>
   </test> <!-- Login Tests(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

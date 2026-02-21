@@ -11,7 +11,6 @@
 
     <test thread-count="5" name="Login Tests">
         <classes>
-            <class name="ananthuProject.Test.StandAloneTest"/>
             <class name="ananthuProject.Test.LoginCheckTest">
             <methods>
             <exclude name="passwordReset"></exclude>

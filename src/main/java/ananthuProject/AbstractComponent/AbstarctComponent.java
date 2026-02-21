@@ -23,7 +23,7 @@ public class AbstarctComponent {
 
 	public void waitForElementToAppear(By findBy) {
 		
-		WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(45));
+		WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 	}
 	
