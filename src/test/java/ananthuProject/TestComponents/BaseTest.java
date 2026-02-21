@@ -97,13 +97,13 @@ public class BaseTest {
 		// Capture the screenshot and store it in a file
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-		// Define the destination path for the screenshot
+		
 		String destinationFile = System.getProperty("user.dir") + "//reports//" + testCaseName + ".png";
 
 		// Copy the screenshot file to the destination
 		FileUtils.copyFile(src, new File(destinationFile));
 
-		// Return the path of the screenshot
+		
 		return destinationFile;
 	}
 
